@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(228, 151, 80);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+
+td, th {
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+
+a {
+    font-family: cursive;
+    text-decoration: none;
+    color: rgb(35, 12, 167);
+}
+
+
+
+td:nth-child(1), th:nth-child(1) {
+    color: rgb(35, 12, 167);
+    font-family: cursive;
+    background-color: rgb(228, 101, 101); 
+}
+
+td:nth-child(2), th:nth-child(2) {
+    color: rgb(235, 10, 10);
+    font-family: cursive;
+    background-color: rgb(233, 183, 127); 
+}
+
+td:nth-child(3), th:nth-child(3) {
+    color: rgb(0, 238, 71);
+    font-family: cursive;
+    background-color: rgb(240, 232, 121); 
+}
+
+td:nth-child(4), th:nth-child(4) {
+    font-family: cursive;
+    background-color: #264653;
+}
+
+td:nth-child(5), th:nth-child(5) {
+    font-family: cursive;
+    background-color: #11005d; 
+}
+
+
+td img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+th {
+    background-color: #e76f51;
+    color: white;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
